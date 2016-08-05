@@ -1,6 +1,6 @@
 {
   "name": "@passmarked/javascript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rules related to checking if the Javascript produced by the page does not throw any errors or show messages in the log",
   "main": "index.js",
   "scripts": {

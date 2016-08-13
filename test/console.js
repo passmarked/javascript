@@ -79,8 +79,8 @@ describe('console', function(){
         url:    'http://example.com',
         console: [
 
-          JSON.stringify({ type: 'log', message: 'Something went wrong ...' }),
-          JSON.stringify({ type: 'log', message: 'Something went wrong again ...' })
+          { type: 'log', message: 'Something went wrong ...' },
+          { type: 'log', message: 'Something went wrong again ...' }
 
         ]
 
@@ -121,7 +121,7 @@ describe('console', function(){
         url:    'http://example.com',
         console: [
 
-          JSON.stringify({ type: 'log', message: 'Something went wrong ...' })
+          { type: 'log', message: 'Something went wrong ...' }
 
         ]
 

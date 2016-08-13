@@ -79,8 +79,8 @@ describe('alerts', function(){
         url:    'http://example.com',
         alerts: [
 
-          JSON.stringify({ message: 'Might have I ask you something ... ?' }),
-          JSON.stringify({ message: 'WAIT ! Leaving so early ?' })
+          { message: 'Might have I ask you something ... ?' },
+          { message: 'WAIT ! Leaving so early ?' }
 
         ]
 
@@ -121,7 +121,7 @@ describe('alerts', function(){
         url:    'http://example.com',
         alerts: [
 
-          JSON.stringify({ message: 'Let me introduce you to ...' })
+          { message: 'Let me introduce you to ...' }
 
         ]
 
